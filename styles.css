@@ -1,0 +1,70 @@
+body {
+    background-color: #f9f9f9;
+    color: #000080
+    font-size: 1.0em;
+    padding: 0 px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    background-color: #4CAF50;
+    color: #f9f9f9;
+    font-style: italic;
+    padding: 1em;
+    text-align: center;
+}
+
+.introduction{
+    padding: 1em;
+    background-color: #e7f5e6;
+}
+
+.journey ul li{
+    color:#333;
+    margin-left: 1em;
+    background-color: #7abcea;
+}
+
+main>section {
+    background-color: #e6e6fa;
+    color: #4b0082;
+    margin:2em;
+    padding: 1em 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.introduction+.journey{
+    background-color: #ffefdb;
+}
+
+.introduction~ .journey{
+    border-left: 5px solid #FFA726;  
+    color: #7abcea;
+}
+
+<img src="dragon.jpg" alt="dragon"> 
+
+.dragon-encounter::before {
+    content: url('dragon.jpg');
+    display: block;
+    margin: 0 auto 1em;
+    max-width: 100%;
+    height: auto;
+
+}
+
+footer {
+    background-color:#333;
+    color: white; 
+    text-align: center; 
+    padding: 1em 0;
+    width:100%;
+    bottom: 0px;;
+    position: absolute;
+    border: 3px solid
+    
+
+}
+
